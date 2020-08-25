@@ -1,0 +1,1 @@
+data = "https://raw.githubusercontent.com/PilliSiddharth/coronavirus-dashboard/master/data_files/owid-covid-data.csv"
