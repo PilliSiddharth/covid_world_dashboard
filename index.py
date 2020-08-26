@@ -18,7 +18,7 @@ dropdown = dbc.DropdownMenu(
         dbc.DropdownMenuItem("INDIA-COVID-Analysis", href="/india"),
         dbc.DropdownMenuItem("WORLD-COVID-Analysis", href="/wrld"),
         dbc.DropdownMenuItem("Continental-COVID-Analysis", href="/continental"),
-        dbc.DropdownMenuItem("Feedback and Report Bugs", href="/report"),
+        # dbc.DropdownMenuItem("Feedback and Report Bugs", href="/report"),
         dbc.DropdownMenuItem("About Me", href="/about"),
     ],
     nav = True,
@@ -88,9 +88,9 @@ def display_page(pathname):
         return app3.layout
     elif pathname == "/continental":
         return app4.layout
-    elif pathname == "report":
-        return app5.layout
-    elif pathname == "about":
+    # elif pathname == "/report":
+    #     return app5.layout
+    elif pathname == "/about":
         return app6.layout
     else:
         return home.layout

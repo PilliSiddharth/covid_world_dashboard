@@ -13,7 +13,6 @@ from app import app
 #external_stylesheets = [dbc.themes.LUX]
 
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
 df = pd.read_csv(data, index_col = 0)
 
 # preparing various dataframes for visualisation
