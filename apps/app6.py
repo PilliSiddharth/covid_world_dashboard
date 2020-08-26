@@ -79,11 +79,16 @@ layout = html.Div([
         # ], style={"display":"inline-block"}),
 
         # html.Div([
+        # html.Div([
+        #     html.Img(src="assets/me.png",
+        #              style={'margin-right': "-300px", 'margin-left': "auto", "display": "block", "margin-top": "-340px",
+        #                     "height": "400px"})
+        # ])
         # ])
     ]),
         # dbc.Container([
-        html.Div([
-    html.Img(src="assets/me.png",style={'margin-right':"-150px",'margin-left':"auto","display":"block","margin-top":"-380px","height":"450px"})
-            ])
+    #     html.Div([
+    # html.Img(src="assets/me.png",style={'margin-right':"-300px",'margin-left':"auto","display":"block","margin-top":"-340px","height":"400px"})
+    #         ])
             # ])
     ])])
